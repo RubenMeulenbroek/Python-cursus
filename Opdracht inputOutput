@@ -1,0 +1,6 @@
+print('Hoeveel verdient u per uur?')
+salaris = input()
+print('Hoeveel uur heeft u de afgelopen maand gewerkt?')
+UrenGewerkt = input()
+verdiend = float(salaris) * float(UrenGewerkt)
+print('U heeft de afgelopen maand ' + str(verdiend) + 'euro verdiend.')
